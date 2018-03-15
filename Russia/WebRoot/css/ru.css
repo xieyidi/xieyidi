@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+*
+{
+	margin:0;
+	padding:0;
+}
+.titl
+{
+	margin:10px auto;
+	display:block;
+	width:200px;
+	height:30px;
+}
+.titl span
+{
+	line-height:30px;
+	text-align:center;
+	color:#FF8247;
+	font-family:SimHei;
+}
+.subt1
+{
+	line-height:30px;
+	position:absolute;
+	left:240px;
+	top:50px;
+	color:#FF8247;
+	font-family:SimHei;
+}
+.subt2
+{
+	line-height:30px;
+	position:absolute;
+	left:840px;
+	top:50px;
+	color:#FF8247;
+	font-family:SimHei;
+}
+.game
+{
+	position:absolute;
+	top:78px;
+	left:180px;
+	display:block;
+	width:200px;
+	height:400px;
+	border:1px solid #d1d1d1;
+}
+.game-ta
+{
+	position:absolute;
+	top:78px;
+	left:800px;
+	display:block;
+	width:200px;
+	height:400px;
+	border:1px solid #d1d1d1;
+}
+.next
+{
+	position:absolute;
+	top:78px;
+	left:410px;
+	display:block;
+	width:80px;
+	height:80px;
+	border:1px solid #d1d1d1;
+}
+.next-ta
+{
+	position:absolute;
+	top:78px;
+	left:1030px;
+	display:block;
+	width:80px;
+	height:80px;
+	border:1px solid #d1d1d1;
+}
+.tim
+{
+	position:absolute;
+	top:160px;
+	left:410px;
+	color:#d1d1d1;
+	font-family:SimHei;
+}
+.tim-ta
+{
+	position:absolute;
+	top:160px;
+	left:1030px;
+	color:#d1d1d1;
+	font-family:SimHei;
+}
+.tim span
+{
+	display:inline-block;
+	color:#666666;
+}
+.tim-ta span
+{
+	display:inline-block;
+	color:#666666;
+}
+.tim input
+{
+	display:block;
+	width:40px;
+	height:18px;
+	margin:5px;
+}
+.tim-ta input
+{
+	display:block;
+	width:40px;
+	height:18px;
+	margin:5px;
+}
+.cur
+{
+	position:absolute;
+	display:block;
+	width:20px;
+	height:20px;
+	background:#FFC0CB;	/*下落方块的颜色*/
+	box-shadow:1px 1px 1px #fff inset;  
+}
+.sit
+{
+	position:absolute;
+	display:block;
+	width:20px;
+	height:20px;
+	background:#b1b1b1;	/*失效方块的颜色*/
+	box-shadow:1px 1px 1px #fff inset; 	
+}
+.none
+{
+	position:absolute;
+	display:block;
+	width:20px;
+	height:20px;
+	background:#fff;	/*也就是背景颜色*/
+}
